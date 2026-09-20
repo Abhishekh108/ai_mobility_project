@@ -2,7 +2,7 @@ import React, { useState, useCallback, useEffect, useRef, memo } from 'react';
 import { GoogleMap, useJsApiLoader, Marker, TrafficLayer, InfoWindow } from '@react-google-maps/api';
 import TopTripHeading from './TopTripHeading';
 
-const GOOGLE_MAPS_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY || '';
+const GOOGLE_MAPS_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
 const MAP_CONTAINER_STYLE = { width: '100%', height: '100%' };
 const DELHI_CENTER = { lat: 28.6139, lng: 77.2090 };
