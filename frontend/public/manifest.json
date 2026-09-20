@@ -1,0 +1,22 @@
+{
+  "short_name": "AeroMobility",
+  "name": "AI Environmental Intelligence & Smart Mobility System",
+  "description": "Real-time air quality forecasting and exposure-minimized smart navigation in Delhi NCR",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0a0e1a",
+  "theme_color": "#0a0e1a",
+  "display": "standalone",
+  "orientation": "portrait"
+}
