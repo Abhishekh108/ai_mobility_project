@@ -27,8 +27,17 @@ class Settings:
     # Firebase (optional)
     FIREBASE_CREDENTIALS_PATH: str = os.getenv("FIREBASE_CREDENTIALS_PATH", "")
     
-    # CORS
-    CORS_ORIGINS: list = ["http://localhost:5173", "http://localhost:3000", "http://127.0.0.1:5173"]
+    # CORS — allow all localhost origins (React frontend + Flutter web app)
+    CORS_ORIGINS: list = [
+        "http://localhost:5173",
+        "http://localhost:3000",
+        "http://127.0.0.1:5173",
+        "http://localhost:5050",
+        "http://127.0.0.1:5050",
+        "http://localhost:5051",
+        "http://localhost:8080",
+        "*",
+    ]
     
     # AQI Health Thresholds per category
     HEALTH_THRESHOLDS: dict = {

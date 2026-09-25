@@ -1,0 +1,702 @@
+{
+  "origin": "Connaught Place, New Delhi",
+  "destination": "Indira Gandhi International Airport (T3), Delhi",
+  "origin_aqi": 93.8,
+  "destination_current_aqi": 94.4,
+  "destination_predicted_aqi": 89.9,
+  "routes": [
+    {
+      "route_index": 0,
+      "summary": "Corridor 1: Direct Main Arterial",
+      "total_distance_km": 19.75,
+      "total_duration_minutes": 24.2,
+      "duration_in_traffic_minutes": 27.8,
+      "average_aqi": 95.8,
+      "max_aqi": 103.2,
+      "min_aqi": 82.2,
+      "cumulative_exposure": 2662.5,
+      "health_classification": {
+        "label": "Satisfactory",
+        "color": "#FFDE33",
+        "advice": "Acceptable quality. Sensitive individuals should limit prolonged outdoor exertion."
+      },
+      "health_advisory": "Satisfactory air quality. Normal commute precautions.",
+      "practical_reasoning": "**\ud83c\udf2b\ufe0f AQI (96 \u2014 Score 100/100):** Lowest pollution corridor. Reduces your cumulative inhaled exposure by **32%** vs worst alternative.\n**\u23f1\ufe0f Duration (28 min, 19.8 km \u2014 Score 100/100):** Fastest or competitive travel time on this corridor.\n**\ud83d\udea6 Traffic (Score 51/100):** Moderate congestion (+15% delay).\n**\ud83c\udf24\ufe0f Weather (Score 52/100):** Clear / Dry, Moderate wind (10 km/h).",
+      "exposure_reduction_pct": 31.6,
+      "polyline_encoded": "{awmDokhvMa@Jy@NsAPWBy@Ha@AIn@CRAh@AP?@?REz@G`CCd@E`BQ`GWdLGxCAv@CfBKtA?LnENhBFzCHfFJjADhCHRARI~BcANGFCDCNIFPLZXx@BHx@|BHR@@N`@HAHAHAH?H?H@H@HBPFLHLLLLDJDJBJBJ@J@P@PAPCNENELGLGJIH@^@JBRHVx@`CHVz@fC~ArETp@`@jAdAzCHXb@lAn@bBPVLJPHXCTDNJFFDLFN?XCT[`@AX?TDd@Vr@DNTr@^hANd@j@jAb@rAbEtLl@|A^z@b@~@h@`A^t@n@x@j@t@n@v@t@t@t@r@h@d@r@f@l@d@x@d@~@j@n@Zx@\\|@^jA`@v@Rt@R`ARfALlAJpALp@@`BBxBCvBOtB[~AYvBk@|Am@fAe@lBcAd@WLJPXLVpA|Bt@~@f@n@lFvERRdGvFPRJJJLvAdB|AjB`@f@vChFb@dAdB|DFL~FxNPb@DHBHHNBHHPtB`F`LlWHPv@jBbBzDd@fAP`@fAhCRb@`BtDvA|CNZt@bBXp@v@hB^v@d@jAJRBJRd@Th@`AzBd@fA`DjIj@nAd@lATh@l@zAb@nA`A`DPf@^jAxBfHFNbBhF~BpHd@bBLh@V|@x@~CPr@nAhEtAlEFPFP@DzE|OnBrGV|@t@pBXj@Vb@HNJPj@|@vBbCdAfAnAbA^R`AXxCl@\\FxDn@`QtCtAT~Ev@hCr@`AVnDbAhB`AzCvCv@rAh@hBtCnJhCxGzDpI`BjCn@rAR^^f@b@f@`@\\d@^d@Xn@Zf@Rd@Ld@L`@Fl@Fr@Dr@BtADbDDv@BL?l@@zc@fAjFPxAVvVdFdFvAfGdB`Bv@bAp@z@z@jDrE^Rh@`@TLlD~EZ^jExF`@n@rBpCHJj@fAPZ@BZb@f@r@Zj@JLLNtAlB@Bx@jA\\l@DHLTtAzC@BFNf@vAXv@Tl@Tp@d@hAr@hBv@zAJL`@h@E`@?T@|A?T@LBJBJFJFHFFHDJDJ@J@T@RCP@PBPFNHLLJNHPDRBT?RATCRIRINKLOJOHMDM@M@OAMCMCKGKIKIIMG`@o@`EM`ASpAQrA[~B}F`a@Kn@Ih@WzAU|AWhBMt@QpAI\\MTQXe@XWJSD_@B]@_AI[?c@Hg@Vc@Vg@XUHyAp@s@XG@s@TiBn@qAb@_Cv@q@Zk@Xi@^a@^i@l@c@n@]l@[t@i@hB]`CGPILMHOBOAOGKKGOCS@Ql@}Dr@cFJs@Ke@GKKOCGIGGCGCGAqDo@}AnLSzAA\\?t@YlAg@zCCLiBpMKn@CLOGBMJw@jBqM{AU]EgBWKv@",
+      "segments": [
+        {
+          "start_lat": 28.6315,
+          "start_lng": 77.21672,
+          "end_lat": 28.63351,
+          "end_lng": 77.20865,
+          "distance_km": 0.99,
+          "duration_minutes": 1.4,
+          "aqi": 87.4,
+          "exposure": 121.4
+        },
+        {
+          "start_lat": 28.63351,
+          "start_lng": 77.20865,
+          "end_lat": 28.62717,
+          "end_lng": 77.20732,
+          "distance_km": 0.99,
+          "duration_minutes": 1.4,
+          "aqi": 82.2,
+          "exposure": 114.3
+        },
+        {
+          "start_lat": 28.62717,
+          "start_lng": 77.20732,
+          "end_lat": 28.6264,
+          "end_lng": 77.20635,
+          "distance_km": 0.99,
+          "duration_minutes": 1.4,
+          "aqi": 85.3,
+          "exposure": 118.5
+        },
+        {
+          "start_lat": 28.6264,
+          "start_lng": 77.20635,
+          "end_lat": 28.62387,
+          "end_lng": 77.20051,
+          "distance_km": 0.99,
+          "duration_minutes": 1.4,
+          "aqi": 85.2,
+          "exposure": 118.4
+        },
+        {
+          "start_lat": 28.62387,
+          "start_lng": 77.20051,
+          "end_lat": 28.62126,
+          "end_lng": 77.19415,
+          "distance_km": 0.99,
+          "duration_minutes": 1.4,
+          "aqi": 87.5,
+          "exposure": 121.6
+        },
+        {
+          "start_lat": 28.62126,
+          "start_lng": 77.19415,
+          "end_lat": 28.61508,
+          "end_lng": 77.19007,
+          "distance_km": 0.99,
+          "duration_minutes": 1.4,
+          "aqi": 92.2,
+          "exposure": 128.2
+        },
+        {
+          "start_lat": 28.61508,
+          "start_lng": 77.19007,
+          "end_lat": 28.60603,
+          "end_lng": 77.18743,
+          "distance_km": 0.99,
+          "duration_minutes": 1.4,
+          "aqi": 96.5,
+          "exposure": 134.1
+        },
+        {
+          "start_lat": 28.60603,
+          "start_lng": 77.18743,
+          "end_lat": 28.59807,
+          "end_lng": 77.1734,
+          "distance_km": 0.99,
+          "duration_minutes": 1.4,
+          "aqi": 99.3,
+          "exposure": 138.0
+        },
+        {
+          "start_lat": 28.59807,
+          "start_lng": 77.1734,
+          "end_lat": 28.59302,
+          "end_lng": 77.16369,
+          "distance_km": 0.99,
+          "duration_minutes": 1.4,
+          "aqi": 101.2,
+          "exposure": 140.7
+        },
+        {
+          "start_lat": 28.59302,
+          "start_lng": 77.16369,
+          "end_lat": 28.58679,
+          "end_lng": 77.14852,
+          "distance_km": 0.99,
+          "duration_minutes": 1.4,
+          "aqi": 102.6,
+          "exposure": 142.6
+        },
+        {
+          "start_lat": 28.58679,
+          "start_lng": 77.14852,
+          "end_lat": 28.57451,
+          "end_lng": 77.14186,
+          "distance_km": 0.99,
+          "duration_minutes": 1.4,
+          "aqi": 103.2,
+          "exposure": 143.4
+        },
+        {
+          "start_lat": 28.57451,
+          "start_lng": 77.14186,
+          "end_lat": 28.56714,
+          "end_lng": 77.13421,
+          "distance_km": 0.99,
+          "duration_minutes": 1.4,
+          "aqi": 102.9,
+          "exposure": 143.1
+        },
+        {
+          "start_lat": 28.56714,
+          "start_lng": 77.13421,
+          "end_lat": 28.54752,
+          "end_lng": 77.12538,
+          "distance_km": 0.99,
+          "duration_minutes": 1.4,
+          "aqi": 101.8,
+          "exposure": 141.6
+        },
+        {
+          "start_lat": 28.54752,
+          "start_lng": 77.12538,
+          "end_lat": 28.54435,
+          "end_lng": 77.12009,
+          "distance_km": 0.99,
+          "duration_minutes": 1.4,
+          "aqi": 100.9,
+          "exposure": 140.2
+        },
+        {
+          "start_lat": 28.54435,
+          "start_lng": 77.12009,
+          "end_lat": 28.54298,
+          "end_lng": 77.11801,
+          "distance_km": 0.99,
+          "duration_minutes": 1.4,
+          "aqi": 100.5,
+          "exposure": 139.7
+        },
+        {
+          "start_lat": 28.54298,
+          "start_lng": 77.11801,
+          "end_lat": 28.54357,
+          "end_lng": 77.11693,
+          "distance_km": 0.99,
+          "duration_minutes": 1.4,
+          "aqi": 100.3,
+          "exposure": 139.4
+        },
+        {
+          "start_lat": 28.54357,
+          "start_lng": 77.11693,
+          "end_lat": 28.54687,
+          "end_lng": 77.10546,
+          "distance_km": 0.99,
+          "duration_minutes": 1.4,
+          "aqi": 99.1,
+          "exposure": 137.7
+        },
+        {
+          "start_lat": 28.54687,
+          "start_lng": 77.10546,
+          "end_lat": 28.55234,
+          "end_lng": 77.10275,
+          "distance_km": 0.99,
+          "duration_minutes": 1.4,
+          "aqi": 96.6,
+          "exposure": 134.2
+        },
+        {
+          "start_lat": 28.55234,
+          "start_lng": 77.10275,
+          "end_lat": 28.55318,
+          "end_lng": 77.10398,
+          "distance_km": 0.99,
+          "duration_minutes": 1.4,
+          "aqi": 95.8,
+          "exposure": 133.2
+        },
+        {
+          "start_lat": 28.55318,
+          "start_lng": 77.10398,
+          "end_lat": 28.55638,
+          "end_lng": 77.10005,
+          "distance_km": 0.99,
+          "duration_minutes": 1.4,
+          "aqi": 95.2,
+          "exposure": 132.3
+        }
+      ],
+      "is_safest": true,
+      "composite_score": 0.8786,
+      "origin_name": "Connaught Place, New Delhi",
+      "destination_name": "Indira Gandhi International Airport (T3), Delhi",
+      "origin_aqi": 93.8,
+      "destination_current_aqi": 94.4,
+      "destination_predicted_aqi": 89.9,
+      "travel_time_minutes": 27.8
+    },
+    {
+      "route_index": 1,
+      "summary": "Corridor 2: Ring Road & Peripheral Bypass",
+      "total_distance_km": 29.17,
+      "total_duration_minutes": 37.6,
+      "duration_in_traffic_minutes": 39.5,
+      "average_aqi": 98.7,
+      "max_aqi": 107.9,
+      "min_aqi": 78.0,
+      "cumulative_exposure": 3895.2,
+      "health_classification": {
+        "label": "Satisfactory",
+        "color": "#FFDE33",
+        "advice": "Acceptable quality. Sensitive individuals should limit prolonged outdoor exertion."
+      },
+      "health_advisory": "Satisfactory air quality. Normal commute precautions.",
+      "practical_reasoning": "**\ud83c\udf2b\ufe0f AQI (99 \u2014 Score 0/100):** AQI is **+3** vs best route. Inhaled dosage is **+46%** higher.\n**\u23f1\ufe0f Duration (40 min, 29.2 km \u2014 Score 0/100):** **+12 min** longer than the recommended route.\n**\ud83d\udea6 Traffic (Score 100/100):** Moderate congestion (+5% delay).\n**\ud83c\udf24\ufe0f Weather (Score 52/100):** Clear / Dry, Moderate wind (10 km/h).",
+      "exposure_reduction_pct": 0.0,
+      "polyline_encoded": "{awmDokhvMa@Jy@NsAPWBy@Ha@AQA[GSEYMk@Qw@[c@WOGWMCb@}BpEuC`GEJiItPCBIRUd@wH|Oc@~@i@dAKV[d@_AtBw@fBIP_@x@GNqAxCEJGJAD_@v@Ub@}AbBuAhA_AdAYXCDQTWt@Mb@c@xAkAvDe@nA}@fCEHGR[x@o@fBWp@[z@Sj@o@fCANCPBDDDBF@DBF@F@F@F@F?F?HAF?FAHAFCDAFCDCFCDED~@hLx@jJLbBTrC@HBZd@zG^|EL|Al@tH@PBX?HPvBB|@n@|GXfD`@rFh@dHJpA`@|EDt@Dj@Fx@Dt@x@`JJlADTF`ABf@Nn@Ll@DTN?HBFBFFDBBDBF@F@H?F?F?HCFAFCFEDEDEBGBE@G@G?GAMCIFGFMLc@p@eAzBmHfOuBfEWj@_DdGGLKReDrGCBoCpF}@fBc@z@Ub@q@pAoBzD]n@s@vAi@dAaCxEe@|@EL[j@g@bAeApBq@rAIPEFO\\qB~DkAvBlDxFrCxFj@tAJTJX|D`KTd@DLb@z@h@v@h@j@jVnQ`D~BrDnCbGlEpCnBRNh@`@VPRNx@n@v@h@~G~Ez@n@~CzBvAbAhD`ClBbAhJhEdChAnErBvJlEzMbGLFpBhAh@f@d@z@dAbF?BDN~@UnHkBtCy@ZIhCw@TG~@UHCpCw@hD}@\\Eb@Ix@CR@P?t@B\\@J?r@?X?L?\\@z@?|HOxC?lBLb@@VAfAA\\C\\Ab@?b@GjAKj@Gx@Ml@WbAg@f@[pAcA|DwC~AsAr@k@fB{@|@]rAiAr@g@b@[lCqBf@_@d@[iAm@IEKEICWIKEUKj@oBPq@n@uBHg@W_A[w@CSMo@Ku@?CGi@YsA[y@dBu@w@wBeAaDdA`DDAFEh@sAHSL_@v@eA~@o@dBWDXHP`@Tp@TrCVLAF@VFh@HTDrGyv@Js@Fa@TaAj@yA|A}BxFqIxCmE|EiHdBgCNWjAcB|AaB~AyAdBeAfF{C~E{C`BcATOv@e@t@iADKDIBKBI@K@K@KHcA@MDOBMDMFKFKNSJGHEJCLCJAJCJCHAJCHAJ?H?J?H@J@HBHDHFHJFHHJBDBFDHBH@HBH?H@H?H?HAJAHAHCFCHCJGJIJIJKHKHKFMD{Ax@GBk@XMJKLKNIPERCPAT?R@T@TD\\R~@d@lATh@l@zAb@nA`A`DPf@^jAxBfHFNbBhF~BpHd@bBLh@V|@x@~CPr@nAhEtAlEFPFP@DzE|OnBrGV|@t@pBXj@Vb@HNJPj@|@vBbCdAfAnAbA^R`AXxCl@\\FxDn@`QtCtAT~Ev@hCr@`AVnDbAhB`AzCvCv@rAh@hBtCnJhCxGzDpI`BjCn@rAR^^f@b@f@`@\\d@^d@Xn@Zf@Rd@Ld@L`@Fl@Fr@Dr@BtADbDDv@BL?l@@zc@fAjFPxAVvVdFdFvAfGdB`Bv@bAp@z@z@jDrE^Rh@`@TLlD~EZ^jExF`@n@rBpCHJj@fAPZ@BZb@f@r@Zj@JLLNtAlB@Bx@jA\\l@DHLTtAzC@BFNf@vAXv@Tl@Tp@d@hAr@hBv@zAJL`@h@E`@?T@|A?T@LBJBJFJFHFFHDJDJ@J@T@RCP@PBPFNHLLJNHPDRBT?RATCRIRINKLOJOHMDM@M@OAMCMCKGKIKIIMG`@o@`EM`ASpAQrA[~B}F`a@Kn@Ih@WzAU|AWhBMt@QpAI\\MTQXe@XWJSD_@B]@_AI[?c@Hg@Vc@Vg@XUHyAp@s@XG@s@TiBn@qAb@_Cv@q@Zk@Xi@^a@^i@l@c@n@]l@[t@i@hB]`CGPILMHOBOAOGKKGOCS@Ql@}Dr@cFJs@Ke@GKKOCGIGGCGCGAqDo@}AnLSzAA\\?t@YlAg@zCCLiBpMKn@CLOGBMJw@jBqM{AU]EgBWKv@",
+      "segments": [
+        {
+          "start_lat": 28.6315,
+          "start_lng": 77.21672,
+          "end_lat": 28.64052,
+          "end_lng": 77.20614,
+          "distance_km": 1.46,
+          "duration_minutes": 2.0,
+          "aqi": 84.1,
+          "exposure": 166.0
+        },
+        {
+          "start_lat": 28.64052,
+          "start_lng": 77.20614,
+          "end_lat": 28.64504,
+          "end_lng": 77.19761,
+          "distance_km": 1.46,
+          "duration_minutes": 2.0,
+          "aqi": 78.0,
+          "exposure": 154.0
+        },
+        {
+          "start_lat": 28.64504,
+          "start_lng": 77.19761,
+          "end_lat": 28.64351,
+          "end_lng": 77.18581,
+          "distance_km": 1.46,
+          "duration_minutes": 2.0,
+          "aqi": 84.4,
+          "exposure": 166.7
+        },
+        {
+          "start_lat": 28.64351,
+          "start_lng": 77.18581,
+          "end_lat": 28.64151,
+          "end_lng": 77.17443,
+          "distance_km": 1.46,
+          "duration_minutes": 2.0,
+          "aqi": 94.0,
+          "exposure": 185.5
+        },
+        {
+          "start_lat": 28.64151,
+          "start_lng": 77.17443,
+          "end_lat": 28.64929,
+          "end_lng": 77.16199,
+          "distance_km": 1.46,
+          "duration_minutes": 2.0,
+          "aqi": 102.9,
+          "exposure": 203.1
+        },
+        {
+          "start_lat": 28.64929,
+          "start_lng": 77.16199,
+          "end_lat": 28.64027,
+          "end_lng": 77.1444,
+          "distance_km": 1.46,
+          "duration_minutes": 2.0,
+          "aqi": 107.9,
+          "exposure": 213.0
+        },
+        {
+          "start_lat": 28.64027,
+          "start_lng": 77.1444,
+          "end_lat": 28.62031,
+          "end_lng": 77.13657,
+          "distance_km": 1.46,
+          "duration_minutes": 2.0,
+          "aqi": 107.2,
+          "exposure": 211.6
+        },
+        {
+          "start_lat": 28.62031,
+          "start_lng": 77.13657,
+          "end_lat": 28.60991,
+          "end_lng": 77.13943,
+          "distance_km": 1.46,
+          "duration_minutes": 2.0,
+          "aqi": 105.7,
+          "exposure": 208.7
+        },
+        {
+          "start_lat": 28.60991,
+          "start_lng": 77.13943,
+          "end_lat": 28.60838,
+          "end_lng": 77.14654,
+          "distance_km": 1.46,
+          "duration_minutes": 2.0,
+          "aqi": 104.7,
+          "exposure": 206.6
+        },
+        {
+          "start_lat": 28.60838,
+          "start_lng": 77.14654,
+          "end_lat": 28.59524,
+          "end_lng": 77.16596,
+          "distance_km": 1.46,
+          "duration_minutes": 2.0,
+          "aqi": 102.7,
+          "exposure": 202.7
+        },
+        {
+          "start_lat": 28.59524,
+          "start_lng": 77.16596,
+          "end_lat": 28.59291,
+          "end_lng": 77.16839,
+          "distance_km": 1.46,
+          "duration_minutes": 2.0,
+          "aqi": 101.4,
+          "exposure": 200.2
+        },
+        {
+          "start_lat": 28.59291,
+          "start_lng": 77.16839,
+          "end_lat": 28.59336,
+          "end_lng": 77.16667,
+          "distance_km": 1.46,
+          "duration_minutes": 2.0,
+          "aqi": 101.4,
+          "exposure": 200.2
+        },
+        {
+          "start_lat": 28.59336,
+          "start_lng": 77.16667,
+          "end_lat": 28.58902,
+          "end_lng": 77.15383,
+          "distance_km": 1.46,
+          "duration_minutes": 2.0,
+          "aqi": 102.2,
+          "exposure": 201.8
+        },
+        {
+          "start_lat": 28.58902,
+          "start_lng": 77.15383,
+          "end_lat": 28.57213,
+          "end_lng": 77.13692,
+          "distance_km": 1.46,
+          "duration_minutes": 2.0,
+          "aqi": 103.2,
+          "exposure": 203.7
+        },
+        {
+          "start_lat": 28.57213,
+          "start_lng": 77.13692,
+          "end_lat": 28.55068,
+          "end_lng": 77.12937,
+          "distance_km": 1.46,
+          "duration_minutes": 2.0,
+          "aqi": 102.3,
+          "exposure": 201.9
+        },
+        {
+          "start_lat": 28.55068,
+          "start_lng": 77.12937,
+          "end_lat": 28.54401,
+          "end_lng": 77.11956,
+          "distance_km": 1.46,
+          "duration_minutes": 2.0,
+          "aqi": 101.0,
+          "exposure": 199.4
+        },
+        {
+          "start_lat": 28.54401,
+          "start_lng": 77.11956,
+          "end_lat": 28.54286,
+          "end_lng": 77.11695,
+          "distance_km": 1.46,
+          "duration_minutes": 2.0,
+          "aqi": 100.4,
+          "exposure": 198.1
+        },
+        {
+          "start_lat": 28.54286,
+          "start_lng": 77.11695,
+          "end_lat": 28.54703,
+          "end_lng": 77.10544,
+          "distance_km": 1.46,
+          "duration_minutes": 2.0,
+          "aqi": 99.1,
+          "exposure": 195.6
+        },
+        {
+          "start_lat": 28.54703,
+          "start_lng": 77.10544,
+          "end_lat": 28.55345,
+          "end_lng": 77.10095,
+          "distance_km": 1.46,
+          "duration_minutes": 2.0,
+          "aqi": 96.1,
+          "exposure": 189.8
+        },
+        {
+          "start_lat": 28.55345,
+          "start_lng": 77.10095,
+          "end_lat": 28.55638,
+          "end_lng": 77.10005,
+          "distance_km": 1.46,
+          "duration_minutes": 2.0,
+          "aqi": 94.6,
+          "exposure": 186.6
+        }
+      ],
+      "is_safest": false,
+      "composite_score": 0.2025,
+      "origin_name": "Connaught Place, New Delhi",
+      "destination_name": "Indira Gandhi International Airport (T3), Delhi",
+      "origin_aqi": 93.8,
+      "destination_current_aqi": 94.4,
+      "destination_predicted_aqi": 89.9,
+      "travel_time_minutes": 39.5
+    },
+    {
+      "route_index": 2,
+      "summary": "Corridor 3: Express Link & Secondary Arterial",
+      "total_distance_km": 23.38,
+      "total_duration_minutes": 31.2,
+      "duration_in_traffic_minutes": 39.0,
+      "average_aqi": 97.2,
+      "max_aqi": 102.9,
+      "min_aqi": 84.9,
+      "cumulative_exposure": 3795.5,
+      "health_classification": {
+        "label": "Satisfactory",
+        "color": "#FFDE33",
+        "advice": "Acceptable quality. Sensitive individuals should limit prolonged outdoor exertion."
+      },
+      "health_advisory": "Satisfactory air quality. Normal commute precautions.",
+      "practical_reasoning": "**\ud83c\udf2b\ufe0f AQI (97 \u2014 Score 52/100):** AQI is **+1** vs best route. Inhaled dosage is **+43%** higher.\n**\u23f1\ufe0f Duration (39 min, 23.4 km \u2014 Score 48/100):** **+11 min** longer than the recommended route.\n**\ud83d\udea6 Traffic (Score 0/100):** Heavy congestion (+25% delay) \ud83d\udd34.\n**\ud83c\udf24\ufe0f Weather (Score 52/100):** Clear / Dry, Moderate wind (10 km/h).",
+      "exposure_reduction_pct": 0.0,
+      "polyline_encoded": "{awmDokhvMa@Jy@NsAPWBy@Ha@AIn@CRAh@AP?@?REz@G`CCd@E`BQ`GWdLGxCAv@CfBKtA?LnENhBFzCHfFJjADhCHRARI~BcANGFCDCNIFPLZXx@BHx@|BHR@@N`@HAHAHAH?H?H@H@HBPFLHLLLLDJDJBJBJ@J@P@PAPCNENELGLGJIH@^@JBRHVx@`CHVz@fC~ArETp@`@jAdAzCHXb@lAn@bBPVLJPHXCTDNJFFDLFN?XCT[`@AX?TDd@Vr@DNTr@^hANd@j@jAb@rAbEtLl@|A^z@b@~@h@`A^t@n@x@j@t@n@v@t@t@t@r@h@d@r@f@l@d@x@d@~@j@n@Zx@\\|@^jA`@v@Rt@R`ARfALlAJpALp@@`BBxBCvBOtB[~AYvBk@|Am@fAe@lBcAd@WLJPXLVpA|Bt@~@f@n@lFvERRdGvFPRJJJLvAdB|AjB`@f@vChFb@dAdB|DFL~FxNFHHBHBFBH@HAH?F?d@]LMd@_@Xc@V]h@iAFOf@gBl@qBTu@BKJ[HWRHB@TFXHh@JD?z@FbA@\\Ct@CVAl@CNAf@AfEKhAFp@Fd@Fd@N`FrBfBr@d@RVJd@P|@^VL^Nd@Rj@R|Al@tD|A`@PPHLBVJj@LN@H?B?HCHCHSBEFMJYPo@^sAb@wABMBOASAc@CK?E?G@ODODKJIBADCHCPQLGLQr@aCj@mBb@sANk@@EHSHW?OAMEWEKCKAM?O@ODMFKLKNINAJ?J@JDHFFHDHDJ@J@JFNDJFJDB@BXLrAj@b@P`FxBJBJ?TGHGJELAH@H@FDHDPb@NV`@^JDRJbBx@`@PxEtBpEjB`@Rr@h@b@h@Zp@Vv@n@hB`@jAr@tBbIpTh@xAFR^x@h@zAz@fCBH`BvEbDhJDLbHhSKDoAkDGDC@?FMHGBC@c@Tu@^u@\\?FAHEDEDGBI?GCEEEGs@\\mAl@a@gAnAq@b@Ud@UVr@FCF?FBDBBFfAi@`@Ub@UBAFCJIFBBAFEACyC{HgAsCEMZODLbHhSnBxFvE~MHPhCtHdAxCPh@Pd@Th@OHe@Zm@`@_B`AgBfA{CjBm@d@KHg@b@SPCBW`@ORg@|@Qb@GREJMd@Mx@Iz@A|@@~@NtBDTH\\h@~A~DtMZfAR|@Hv@Dr@AbAAZAPEn@KzAIt@Gn@QbBi@xEw@bFu@rGo@fGI`BBlAFr@L|@Tz@j@pBn@tBh@hBtCnJhCxGzDpI`BjCn@rAR^^f@b@f@`@\\d@^d@Xn@Zf@Rd@Ld@L`@Fl@Fr@Dr@BtADbDDv@BL?l@@zc@fAjFPxAVvVdFdFvAfGdB`Bv@bAp@z@z@jDrE^Rh@`@TLlD~EZ^jExF`@n@rBpCHJj@fAPZ@BZb@f@r@Zj@JLLNtAlB@Bx@jA\\l@DHLTtAzC@BFNf@vAXv@Tl@Tp@d@hAr@hBv@zAJL`@h@E`@?T@|A?T@LBJBJFJFHFFHDJDJ@J@T@RCP@PBPFNHLLJNHPDRBT?RATCRIRINKLOJOHMDM@M@OAMCMCKGKIKIIMG`@o@`EM`ASpAQrA[~B}F`a@Kn@Ih@WzAU|AWhBMt@QpAI\\MTQXe@XWJSD_@B]@_AI[?c@Hg@Vc@Vg@XUHyAp@s@XG@s@TiBn@qAb@_Cv@q@Zk@Xi@^a@^i@l@c@n@]l@[t@i@hB]`CGPILMHOBOAOGKKGOCS@Ql@}Dr@cFJs@Ke@GKKOCGIGGCGCGAqDo@}AnLSzAA\\?t@YlAg@zCCLiBpMKn@CLOGBMJw@jBqM{AU]EgBWKv@",
+      "segments": [
+        {
+          "start_lat": 28.6315,
+          "start_lng": 77.21672,
+          "end_lat": 28.62873,
+          "end_lng": 77.20833,
+          "distance_km": 1.17,
+          "duration_minutes": 2.0,
+          "aqi": 88.7,
+          "exposure": 173.0
+        },
+        {
+          "start_lat": 28.62873,
+          "start_lng": 77.20833,
+          "end_lat": 28.62634,
+          "end_lng": 77.2066,
+          "distance_km": 1.17,
+          "duration_minutes": 2.0,
+          "aqi": 84.9,
+          "exposure": 165.8
+        },
+        {
+          "start_lat": 28.62634,
+          "start_lng": 77.2066,
+          "end_lat": 28.62357,
+          "end_lng": 77.2001,
+          "distance_km": 1.17,
+          "duration_minutes": 2.0,
+          "aqi": 85.4,
+          "exposure": 166.6
+        },
+        {
+          "start_lat": 28.62357,
+          "start_lng": 77.2001,
+          "end_lat": 28.61712,
+          "end_lng": 77.19057,
+          "distance_km": 1.17,
+          "duration_minutes": 2.0,
+          "aqi": 90.0,
+          "exposure": 175.6
+        },
+        {
+          "start_lat": 28.61712,
+          "start_lng": 77.19057,
+          "end_lat": 28.60506,
+          "end_lng": 77.18631,
+          "distance_km": 1.17,
+          "duration_minutes": 2.0,
+          "aqi": 96.4,
+          "exposure": 188.1
+        },
+        {
+          "start_lat": 28.60506,
+          "start_lng": 77.18631,
+          "end_lat": 28.59956,
+          "end_lng": 77.18356,
+          "distance_km": 1.17,
+          "duration_minutes": 2.0,
+          "aqi": 98.7,
+          "exposure": 192.7
+        },
+        {
+          "start_lat": 28.59956,
+          "start_lng": 77.18356,
+          "end_lat": 28.59064,
+          "end_lng": 77.18087,
+          "distance_km": 1.17,
+          "duration_minutes": 2.0,
+          "aqi": 99.7,
+          "exposure": 194.6
+        },
+        {
+          "start_lat": 28.59064,
+          "start_lng": 77.18087,
+          "end_lat": 28.58867,
+          "end_lng": 77.18505,
+          "distance_km": 1.17,
+          "duration_minutes": 2.0,
+          "aqi": 99.9,
+          "exposure": 195.0
+        },
+        {
+          "start_lat": 28.58867,
+          "start_lng": 77.18505,
+          "end_lat": 28.58777,
+          "end_lng": 77.18579,
+          "distance_km": 1.17,
+          "duration_minutes": 2.0,
+          "aqi": 99.7,
+          "exposure": 194.7
+        },
+        {
+          "start_lat": 28.58777,
+          "start_lng": 77.18579,
+          "end_lat": 28.57884,
+          "end_lng": 77.17676,
+          "distance_km": 1.17,
+          "duration_minutes": 2.0,
+          "aqi": 100.3,
+          "exposure": 195.7
+        },
+        {
+          "start_lat": 28.57884,
+          "start_lng": 77.17676,
+          "end_lat": 28.57699,
+          "end_lng": 77.16854,
+          "distance_km": 1.17,
+          "duration_minutes": 2.0,
+          "aqi": 101.1,
+          "exposure": 197.4
+        },
+        {
+          "start_lat": 28.57699,
+          "start_lng": 77.16854,
+          "end_lat": 28.57237,
+          "end_lng": 77.16246,
+          "distance_km": 1.17,
+          "duration_minutes": 2.0,
+          "aqi": 101.7,
+          "exposure": 198.6
+        },
+        {
+          "start_lat": 28.57237,
+          "start_lng": 77.16246,
+          "end_lat": 28.57425,
+          "end_lng": 77.15336,
+          "distance_km": 1.17,
+          "duration_minutes": 2.0,
+          "aqi": 102.3,
+          "exposure": 199.6
+        },
+        {
+          "start_lat": 28.57425,
+          "start_lng": 77.15336,
+          "end_lat": 28.57079,
+          "end_lng": 77.13509,
+          "distance_km": 1.17,
+          "duration_minutes": 2.0,
+          "aqi": 102.9,
+          "exposure": 200.8
+        },
+        {
+          "start_lat": 28.57079,
+          "start_lng": 77.13509,
+          "end_lat": 28.54854,
+          "end_lng": 77.12677,
+          "distance_km": 1.17,
+          "duration_minutes": 2.0,
+          "aqi": 102.1,
+          "exposure": 199.2
+        },
+        {
+          "start_lat": 28.54854,
+          "start_lng": 77.12677,
+          "end_lat": 28.54386,
+          "end_lng": 77.1186,
+          "distance_km": 1.17,
+          "duration_minutes": 2.0,
+          "aqi": 100.8,
+          "exposure": 196.8
+        },
+        {
+          "start_lat": 28.54386,
+          "start_lng": 77.1186,
+          "end_lat": 28.54309,
+          "end_lng": 77.11681,
+          "distance_km": 1.17,
+          "duration_minutes": 2.0,
+          "aqi": 100.3,
+          "exposure": 195.8
+        },
+        {
+          "start_lat": 28.54309,
+          "start_lng": 77.11681,
+          "end_lat": 28.5475,
+          "end_lng": 77.10548,
+          "distance_km": 1.17,
+          "duration_minutes": 2.0,
+          "aqi": 99.1,
+          "exposure": 193.4
+        },
+        {
+          "start_lat": 28.5475,
+          "start_lng": 77.10548,
+          "end_lat": 28.55349,
+          "end_lng": 77.10103,
+          "distance_km": 1.17,
+          "duration_minutes": 2.0,
+          "aqi": 96.1,
+          "exposure": 187.6
+        },
+        {
+          "start_lat": 28.55349,
+          "start_lng": 77.10103,
+          "end_lat": 28.55638,
+          "end_lng": 77.10005,
+          "distance_km": 1.17,
+          "duration_minutes": 2.0,
+          "aqi": 94.6,
+          "exposure": 184.6
+        }
+      ],
+      "is_safest": false,
+      "composite_score": 0.4305,
+      "origin_name": "Connaught Place, New Delhi",
+      "destination_name": "Indira Gandhi International Airport (T3), Delhi",
+      "origin_aqi": 93.8,
+      "destination_current_aqi": 94.4,
+      "destination_predicted_aqi": 89.9,
+      "travel_time_minutes": 39.0
+    }
+  ],
+  "safest_route_index": 0,
+  "alert_triggered": false,
+  "alert_message": null
+}

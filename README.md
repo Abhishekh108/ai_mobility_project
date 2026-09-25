@@ -88,6 +88,23 @@ Frontend will be available at: `http://localhost:5173`
 
 ---
 
+### 📱 Flutter Mobile App Setup
+
+```bash
+cd mobile_app
+
+# Install dependencies
+flutter pub get
+
+# Run on connected Android device or emulator
+flutter run
+
+# Or launch on Web / Chrome
+flutter run -d chrome
+```
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -102,6 +119,15 @@ ai_mobility_project/
 │   ├── ml/                  # ML model files
 │   ├── requirements.txt
 │   └── .env.example
+├── mobile_app/              # Flutter Cross-Platform Mobile App
+│   ├── lib/
+│   │   ├── models/          # Station, Route, Prediction, Profile models
+│   │   ├── services/        # HTTP API client with dual-port fallback
+│   │   ├── theme/           # Cyber-dark theme & CPCB AQI color system
+│   │   ├── widgets/         # AQI badges, Pollutant grids, Route cards
+│   │   ├── screens/         # Map, Route Optimizer, Forecast, Profile
+│   │   └── main.dart
+│   └── pubspec.yaml
 ├── frontend/
 │   ├── src/
 │   │   ├── components/      # React components
