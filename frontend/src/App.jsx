@@ -5,6 +5,7 @@ import RouteSearch from './components/RouteSearch';
 import RouteComparison from './components/RouteComparison';
 import AQIForecast from './components/AQIForecast';
 import UserProfile from './components/UserProfile';
+import LandingPage from './components/LandingPage';
 import {
   getStations,
   compareRoutes,
@@ -14,6 +15,9 @@ import {
 import { initFirebase, onFCMMessage, showBrowserNotification } from './services/firebase';
 
 export default function App() {
+  // View mode: 'landing' or 'app' (map view)
+  const [viewMode, setViewMode] = useState('landing');
+
   // Theme State: 'dark' by default for a high-tech command center feel, or preserved from storage
   const [theme, setTheme] = useState(() => {
     return localStorage.getItem('aqi_theme') || 'dark';
@@ -137,7 +141,6 @@ export default function App() {
         if (res.data && res.data.length > 0) {
           const defaultStation = res.data.find((s) => s.station_id === 'DL014') || res.data[0];
           setSelectedStation(defaultStation);
-          handleRouteSearch('Connaught Place, New Delhi', 'Indira Gandhi International Airport (T3), Delhi');
         }
       })
       .catch((err) => console.error('Failed to load stations:', err));
@@ -217,9 +220,93 @@ export default function App() {
     addToast('Profile Saved', `Updated health persona to ${updated.health_category.toUpperCase()}`, 'success');
   };
 
+  const handleOpenApp = () => {
+    setViewMode('app');
+    // Auto-search default route when entering map view
+    if (routes.length === 0) {
+      handleRouteSearch('Connaught Place, New Delhi', 'Indira Gandhi International Airport (T3), Delhi');
+    }
+  };
+
   const validAQIs = stations.filter((s) => s.aqi && !isNaN(s.aqi)).map((s) => s.aqi);
   const avgDelhiAQI = validAQIs.length > 0 ? validAQIs.reduce((a, b) => a + b, 0) / validAQIs.length : 0;
 
+  // ─── LANDING PAGE VIEW ───
+  if (viewMode === 'landing') {
+    return (
+      <div className="app-landing-wrapper" data-theme={theme}>
+        {/* Slim Navigation Bar for Landing */}
+        <nav className="landing-nav">
+          <div className="landing-nav-brand" onClick={() => setViewMode('landing')}>
+            <div className="logo-icon">🌿</div>
+            <div className="logo-text-group">
+              <div className="logo-text">
+                <span>AeroMobility AI</span>
+                <span className="logo-badge">LSTM 2.0</span>
+              </div>
+            </div>
+          </div>
+          <div className="landing-nav-actions">
+            <button className="btn btn-secondary btn-sm" onClick={() => setShowProfileModal(true)}>
+              <span>🛡️</span>
+              <span>{userProfile?.name || 'Profile'}</span>
+            </button>
+            {toggleTheme && (
+              <button
+                className="header-icon-btn"
+                onClick={toggleTheme}
+                title={theme === 'dark' ? 'Switch to Light Theme' : 'Switch to Dark Theme'}
+              >
+                {theme === 'dark' ? '☀️' : '🌙'}
+              </button>
+            )}
+            <button className="btn btn-primary btn-sm" onClick={handleOpenApp}>
+              <span>🗺️</span>
+              <span>Open Map</span>
+            </button>
+          </div>
+        </nav>
+
+        <LandingPage
+          stations={stations}
+          userProfile={userProfile}
+          onProfileUpdate={handleProfileUpdate}
+          avgDelhiAQI={avgDelhiAQI}
+          theme={theme}
+          onOpenApp={handleOpenApp}
+        />
+
+        {/* User Health Profile Modal Dialog */}
+        {showProfileModal && (
+          <UserProfile
+            profile={userProfile}
+            onProfileUpdate={handleProfileUpdate}
+            onClose={() => setShowProfileModal(false)}
+          />
+        )}
+
+        {/* Notification Toasts */}
+        <div className="alert-toast">
+          {toasts.map((t) => (
+            <div key={t.id} className={`toast ${t.type}`}>
+              <div className="toast-icon">
+                {t.type === 'danger' ? '⚠️' : t.type === 'success' ? '✅' : 'ℹ️'}
+              </div>
+              <div className="toast-content">
+                <div className="toast-title">{t.title}</div>
+                <div className="toast-message">{t.message}</div>
+              </div>
+              <button className="toast-close" onClick={() => removeToast(t.id)}>
+                ✕
+              </button>
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  // ─── MAP APP VIEW ───
   return (
     <div className={`app-layout ${!sidebarOpen ? 'sidebar-collapsed-active' : ''}`}>
       {/* Top Header */}
@@ -235,6 +322,7 @@ export default function App() {
         onToggleTheme={toggleTheme}
         sidebarOpen={sidebarOpen}
         onToggleSidebar={() => setSidebarOpen((prev) => !prev)}
+        onGoHome={() => setViewMode('landing')}
       />
 
       {/* Main View Area */}

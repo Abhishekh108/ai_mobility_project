@@ -12,6 +12,7 @@ export default function Header({
   onToggleTheme,
   sidebarOpen = true,
   onToggleSidebar,
+  onGoHome,
 }) {
   const getProfileColor = (category) => {
     switch (category) {
@@ -51,6 +52,18 @@ export default function Header({
       </div>
 
       <div className="header-actions">
+        {/* Go to Landing Page / Dashboard */}
+        {onGoHome && (
+          <button
+            className="header-icon-btn"
+            onClick={onGoHome}
+            title="Back to Dashboard"
+            aria-label="Back to Dashboard"
+          >
+            🏠
+          </button>
+        )}
+
         {/* Toggle Routes Sidebar Button */}
         {onToggleSidebar && (
           <button
